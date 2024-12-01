@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trading App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  </head>
+  <body>
+    <!-- header section start -->
+    <section class="section">
+      <header class="header">
+        <section class="flex">
+          <a href="#home" class="logo">
+            <i class="fas fa-chart-line"></i> Trade-Master
+          </a>
+          <a href="#download" class="btn">Download App</a>
+        </section>
+      </header>
+    </section>
+
+    <!-- header section end -->
+
+    <!-- navbar section start  -->
+    <div class="navbar">
+      <div class="nav">
+        <a href="#home"><i class="fa-solid fa-home"></i><span>Home</span></a>
+        <a href="#features"
+          ><i class="fa-solid fa-list"></i><span>Features</span></a
+        >
+        <a href="#bonuses"
+          ><i class="fa-solid fa-gift"></i><span>Bonuses</span></a
+        >
+        <a href="#testimonials"
+          ><i class="fa-solid fa-users"></i><span>Testimonials</span></a
+        >
+        <a href="#contact"
+          ><i class="fa-solid fa-envelope"></i><span>Contact</span></a
+        >
+        <a href="#" class="cta claim-spot"
+          ><i class="fa-solid fa-rocket"></i><span>Claim Your Spot</span></a
+        >
+      </div>
+    </div>
+
+    <!-- Modal Popup -->
+    <div id="popup-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" id="close-modal">&times;</span>
+        <h2>Claim Your Spot</h2>
+        <p>
+          Thank you for your interest in our tool! Please fill out your details
+          to secure your spot.
+        </p>
+        <form>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- navbar section end  -->
+
+    <!-- Home Section Start -->
+    <section id="home" class="home section">
+      <div class="flex">
+        <div class="content">
+          <h3>
+            <span class="headline">Trade Smarter, Not Harder:</span> Elevate
+            Your Trading Game with Our Excel Mastery Tool
+          </h3>
+          <p>
+            Reimagine trading—where every click counts and efficiency is your
+            new edge.
+          </p>
+          <a href="#download" class="btn">Start Trading</a>
+        </div>
+        <div class="image">
+          <img src="./image/pic1.jpg" alt="home image" />
+        </div>
+      </div>
+    </section>
+
+    <!-- home section END  -->
+
+    <!-- feature section -->
+
+    <section class="trade-tool section" id="features">
+      <div class="trade-container">
+        <h2 class="trade-title">
+          Why This Tool Will Change the Way You Trade Forever
+        </h2>
+        <div class="trade-features">
+          <div class="feature">
+            <i class="fas fa-bolt feature-icon"></i>
+            <h3 class="feature-title">Seamless Execution</h3>
+            <p class="feature-description">
+              Place trades directly from Excel without toggling between multiple
+              platforms.
+            </p>
+          </div>
+          <div class="feature">
+            <i class="fas fa-tachometer-alt feature-icon"></i>
+            <h3 class="feature-title">Enhanced Efficiency</h3>
+            <p class="feature-description">
+              Streamlined processes mean you spend less time clicking and more
+              time profiting.
+            </p>
+          </div>
+          <div class="feature">
+            <i class="fas fa-sliders-h feature-icon"></i>
+            <h3 class="feature-title">Customizable Interface</h3>
+            <p class="feature-description">
+              Tailor the tool to fit your trading style and strategies.
+            </p>
+          </div>
+          <div class="feature">
+            <i class="fas fa-sync-alt feature-icon"></i>
+            <h3 class="feature-title">Real-Time Data Sync</h3>
+            <p class="feature-description">
+              Stay updated with live market data and make informed decisions
+              instantly.
+            </p>
+          </div>
+          <div class="feature">
+            <i class="fas fa-user-shield feature-icon"></i>
+            <h3 class="feature-title">Maintain Control</h3>
+            <p class="feature-description">
+              You make the decisions; our tool helps you execute them faster.
+            </p>
+          </div>
+          <div class="feature">
+            <i class="fas fa-bolt feature-icon"></i>
+            <h3 class="feature-title">Seamless Execution</h3>
+            <p class="feature-description">
+              Place trades directly from Excel without toggling between multiple
+              platforms.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bonus section start here -->
+    <section class="bonuses-section" id="bonuses">
+      <div class="container">
+        <h2 class="section-title">
+          But Wait—There's More to Elevate Your Trading Experience
+        </h2>
+        <p class="section-subtitle">
+          To ensure you get the most out of this game-changing tool, we're
+          including some exclusive bonuses that you won't find anywhere else.
+        </p>
+
+        <div class="grid-container">
+          <!-- Bonus 1 -->
+          <div class="bonus-card">
+            <div class="gift-icon">
+              <img src="./image/gift.png" alt="Gift Icon" />
+            </div>
+            <h3 class="bonus-title">
+              🎁 Bonus #1: "Excel Trading Mastery" E-Book
+            </h3>
+            <p class="bonus-value">Value: $99</p>
+            <div class="bonus-details">
+              <p>
+                Unlock the full potential of Excel in trading. Inside You'll
+                Discover:
+              </p>
+              <ul>
+                <li>Advanced Excel techniques tailored for traders.</li>
+                <li>
+                  How to create custom indicators and signals within Excel.
+                </li>
+                <li>
+                  Tips on integrating Excel seamlessly with the Fyers API.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Bonus 2 -->
+          <div class="bonus-card">
+            <div class="gift-icon">
+              <img src="./image/gift.png" alt="Gift Icon" />
+            </div>
+            <h3 class="bonus-title">
+              🎁 Bonus #2: "The Art of Efficient Trading" Webinar Series
+            </h3>
+            <p class="bonus-value">Value: $149</p>
+            <div class="bonus-details">
+              <p>
+                A deep dive into strategies that prioritize efficiency and
+                effectiveness. What You'll Gain:
+              </p>
+              <ul>
+                <li>
+                  Insights from top traders on optimizing trade execution.
+                </li>
+                <li>Strategies to reduce reaction time in volatile markets.</li>
+                <li>
+                  Interactive Q&A sessions to get your specific questions
+                  answered.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Bonus 3 -->
+          <div class="bonus-card">
+            <div class="gift-icon">
+              <img src="./image/gift.png" alt="Gift Icon" />
+            </div>
+            <h3 class="bonus-title">
+              🎁 Bonus #3: Personalized Onboarding Session
+            </h3>
+            <p class="bonus-value">Value: $199</p>
+            <div class="bonus-details">
+              <p>
+                We don't just give you the tool—we ensure you master it. Your
+                Onboarding Includes:
+              </p>
+              <ul>
+                <li>One-on-one session with our trading efficiency expert.</li>
+                <li>
+                  Customized setup assistance tailored to your trading needs.
+                </li>
+                <li>Ongoing support to answer any questions you might have.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- elligibility section -->
+    <section class="eligibility-section">
+      <div class="container">
+        <h2 class="section-title">This Isn't for Everyone—Is It for You?</h2>
+        <div class="criteria-container">
+          <div class="criteria-box">
+            <h3 class="criteria-title">Crave Efficiency</h3>
+            <p class="criteria-description">
+              You know that speed and precision can make or break a trade.
+            </p>
+          </div>
+          <div class="criteria-box">
+            <h3 class="criteria-title">Value Control</h3>
+            <p class="criteria-description">
+              You prefer making informed decisions over letting algorithms trade
+              for you.
+            </p>
+          </div>
+          <div class="criteria-box">
+            <h3 class="criteria-title">Ready to Level Up</h3>
+            <p class="criteria-description">
+              You're committed to enhancing your trading toolkit and skills.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Time section -->
+
+    <section class="time-section">
+      <h3 class="segment-title">Time Is of the Essence</h3>
+      <p class="time-description">
+        Opportunities like this are rare, and spots are filling up fast.
+      </p>
+      <div class="time-reasons">
+        <div class="reason" data-aos="zoom-in">
+          <div class="reason-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h4>Limited Availability</h4>
+          <p>Only 50 spots to ensure personalized attention.</p>
+        </div>
+        <div class="reason" data-aos="zoom-in" data-aos-delay="100">
+          <div class="reason-icon">
+            <i class="fas fa-gift"></i>
+          </div>
+          <h4>Exclusive Bonuses</h4>
+          <p>Once the spots are filled, these bonuses disappear.</p>
+        </div>
+        <div class="reason" data-aos="zoom-in" data-aos-delay="200">
+          <div class="reason-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h4>Market Advantage</h4>
+          <p>
+            The sooner you start, the quicker you gain the edge over other
+            traders.
+          </p>
+        </div>
+      </div>
+      <div class="cta-button-container">
+        <a href="#signup" class="cta-button">Claim Your Spot Now</a>
+      </div>
+    </section>
+
+    <!-- Gutantee section -->
+
+    <section class="guarantee-section" id="guarantee">
+      <div class="container">
+        <div class="guarantee-content" data-aos="fade-up">
+          <h2 class="guarantee-title">
+            Your Investment Is Secure—100% Satisfaction Guaranteed
+          </h2>
+          <p class="guarantee-description">
+            We believe in the transformative power of our tool and bonuses.
+            That's why we're offering a Full 30-Day Money-Back Guarantee.
+          </p>
+          <div class="guarantee-details">
+            <p>
+              If you don't feel more efficient in your trading within 30 days,
+              we'll refund your purchase—no questions asked.
+            </p>
+          </div>
+          <div class="cta-container">
+            <button class="cta-button claim-spot">
+              Claim Your Spot with Confidence
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonial -->
+    <section class="testimonial-section" id="testimonials">
+      <div class="container">
+        <h2 class="testimonial-title">Join the Movement of Smarter Traders</h2>
+        <div class="testimonial-card" data-aos="fade-up">
+          <div class="testimonial-image">
+            <img src="./image/porinju veliyath.jpg" alt="Alex M. Photo" />
+          </div>
+          <div class="testimonial-content">
+            <p class="testimonial-quote">
+              "Integrating my trading into Excel has been a game-changer. The
+              efficiency and control I have now are unparalleled. The bonuses
+              alone are worth the investment!"
+            </p>
+            <p class="testimonial-name">— Alex M., Active Trader</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- cta section -->
+    <section class="cta-section" id="cta">
+      <div class="container">
+        <h2 class="cta-title">Ready to Transform Your Trading Experience?</h2>
+        <p class="cta-description">
+          Don't let this opportunity slip through your fingers. Efficiency and
+          success are just a click away.
+        </p>
+        <div class="cta-button-container">
+          <a href="#signup" class="cta-button claim-spot" id="claim-spot">
+            👉 YES, I WANT TO ENHANCE MY TRADING EFFICIENCY! 👈
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- faq -->
+    <section class="faq-section">
+      <div class="container">
+        <h2 class="faq-title">Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Q: Do I need to be an Excel expert to use this tool?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>
+              A: Not at all! If you can navigate basic Excel functions, you'll
+              find our tool intuitive and user-friendly.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Q: How does this tool integrate with the Fyers API?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>
+              A: We've simplified the integration process with clear
+              instructions, allowing you to connect Excel to the Fyers API
+              seamlessly.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Q: What if I need help during setup?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>
+              A: That's why we're including the Personalized Onboarding Session!
+              Plus, our support team is always here to assist you.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- clock page -->
+    <section class="cta-section">
+      <div class="container">
+        
+        <h2 class="cta-title">The Clock Is Ticking—Secure Your Spot Now</h2>
+        <p class="cta-subtitle">
+          Remember, only the first 50 traders will gain access to this exclusive
+          offer. Don't be left behind while others gain the edge.
+        </p>
+
+        <!-- Countdown Timer -->
+        <div class="countdown-timer">
+          <p class="countdown-title">Time Left to Secure Your Spot:</p>
+          <div class="timer" id="timer">
+            <span class="time" id="days">00</span>:<span class="time" id="hours"
+              >00</span
+            >:<span class="time" id="minutes">00</span>:<span
+              class="time"
+              id="seconds"
+              >00</span
+            >
+          </div>
+        </div>
+
+      
+        <div class="cta-button-container">
+          <a href="#signup" class="cta-button claim-spot"
+            >👉 CLICK HERE TO ELEVATE YOUR TRADING NOW! 👈</a
+          >
+        </div>
+
+        <p class="cta-ps">
+          P.S. The difference between those who succeed and those who don't is
+          often simply taking action. Be the trader who takes action.
+        </p>
+
+        <!-- Limited Offer Message -->
+        <div class="cta-footer">
+          <p>
+            Limited-time offer. Only 50 spots available. Act now to secure your
+            bonuses and transform your trading experience.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="content">
+          <!-- Left Section: Contact Form -->
+          <div class="contact-left">
+            <h2>Contact Us</h2>
+            <p>
+              We’d love to hear from you! Use the form below to get in touch.
+            </p>
+
+            <!-- Contact Form -->
+            <form class="contact-form">
+              <input type="text" placeholder="Your Name" required />
+              <input type="email" placeholder="Your Email" required />
+              <textarea placeholder="Your Message" rows="5" required></textarea>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+
+          <!-- Right Section: Large Image -->
+          <div class="contact-right">
+            <img src="./image//pic4.jpg" alt="Contact Us" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <section class="box-container">
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-angle-right"></i> home</a>
+          <a href="#about"><i class="fas fa-angle-right"></i> about </a>
+          <a href="#download"><i class="fas fa-angle-right"></i> download</a>
+          <a href="#pricing"><i class="fas fa-angle-right"></i> pricing</a>
+        </div>
+        
+        <div class="box">
+          <h3>Useful links</h3>
+          <a href="#"><i class="fas fa-angle-right"></i> FAQ</a>
+          <a href="#"><i class="fas fa-angle-right"></i> login /register</a>
+          <a href="#"><i class="fas fa-angle-right"></i> privacy policy</a>
+          <a href="#"><i class="fas fa-angle-right"></i> terms and conditons</a>
+        </div>
+
+        <div class="box">
+          <h3>Contact us</h3>
+          <a href="tel: 7447525103"
+            ><i class="fas fa-phone"></i> +91 7855042248</a
+          >
+          <a href="tel: 7447525103"
+            ><i class="fas fa-phone"></i> +91 7855087659</a
+          >
+          <a href="tel: 7447525103"
+            ><i class="fas fa-envelope"></i> r2001mohanta@gmail.com</a
+          >
+          <a href="tel: 7447525103"
+            ><i class="fas fa-envelope"></i> r2001mohanta@gmail.com</a
+          >
+        </div>
+        <div class="box">
+          <h3>Follow us</h3>
+          <a href="#"><i class="fa-brands fa-youtube"></i> youtube</a>
+          <a href="#"><i class="fa-brands fa-instagram"></i> instagram</a>
+          <a href="#"><i class="fa-brands fa-whatsapp"></i> whatsapp</a>
+          <a href="#"><i class="fa-brands fa-github"></i> github</a>
+        </div>
+      </section>
+      <div class="credit">
+        Created by <span>Rajesh Mohanta</span> | all rights reserved
+      </div>
+    </footer>
+
+    
+    <script src="script.js"></script>
+  </body>
+</html>
